@@ -11,8 +11,10 @@ body {
 }
 
 .navigation {
-    width: 73%;
     padding: 1%;
+    margin: 0 auto;
+
+    background: #292929;
 }
 .inline-block {
     width: 50%;
@@ -24,15 +26,23 @@ body {
     text-align: center;
     width: 23%;
     padding: 1%;
+    display: inline-block;
+}
+
+.logo img {
+    width: 100%;
 }
 .heroimg {
-    height: 600px;
     padding: 25px;
 }
 .content {
-    width: 500px;
     margin: 0 auto;
 }
+
+.content img {
+    width: 100%;
+}
+
 .footer {
     background-color: #292929;
     padding: center;
